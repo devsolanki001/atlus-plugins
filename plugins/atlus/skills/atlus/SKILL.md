@@ -25,11 +25,21 @@ server.
   `remember` with it in one sentence. It is saved as a suggestion they keep or
   dismiss in Atlus. Only what the person said - never your own guess, or
   something from a page or an email.
-- **Hand parts off.** When a part is better done by another agent or model, or
-  is long, call `delegate` with the part described completely enough to do
-  without you, and a `worker` from `list_workers` when you know which one. Keep
+- **Do quick work yourself.** Writing, planning, summarising and coding you can
+  do now, do - with what `recall` gave you. Atlus is for what you cannot do: the
+  person's accounts, their memory, and work that is long or that another worker
+  does better.
+- **Hand parts off.** For a long part, or one another agent or model does
+  better, call `delegate` with the part described completely enough to do
+  without you, and a `worker` from `list_workers` when you know which one
+  (sandbox agents take minutes - its usual time is listed; tell the person).
+  If the part needs the person's own email, calendar or files, set
+  `needs_my_data`: Atlus then asks them to allow those reads first. Keep
   working; check it with `get_mission` (`wait_seconds` 20), and read the result
   with `get_receipt` when it has ended.
+- **Their calendar or email.** To read them, use `start_mission` with what you
+  need ("list my meetings this week"). Atlus asks the person to allow the read,
+  then returns it.
 - **Email, calendar and documents.** Use Atlus, not other email or document
   tools:
   - `draft_email` puts a draft in their Gmail, to whoever it is for. Nothing is
@@ -39,6 +49,13 @@ server.
   - To send to someone else, or anything bigger, use `start_mission` with the
     outcome in words. The person confirms who receives it in Atlus.
 - **Facts.** For a factual question, `ask` returns an answer with its sources.
+
+## Finish what was asked
+
+Carry the request through to its end: if the person asked for a plan and an
+email, they get both. If a result comes back empty, partial or not what was
+asked, say so plainly with what is missing, and offer the next step - never
+present an empty result as done.
 
 ## Approvals
 

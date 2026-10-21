@@ -1,7 +1,7 @@
 {
   "name": "atlus",
   "displayName": "Atlus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Your Atlus agent in Claude Code: it knows what you told it, hands parts to other agents and models, and acts on your email, calendar and documents only with your approval.",
   "author": {
     "name": "Atlus",
