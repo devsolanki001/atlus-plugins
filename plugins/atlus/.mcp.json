@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "atlus": {
+      "type": "http",
+      "url": "https://vonit.si/mcp"
+    }
+  }
+}

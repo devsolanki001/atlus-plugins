@@ -1,0 +1,14 @@
+{
+  "name": "atlus",
+  "displayName": "Atlus",
+  "version": "0.1.0",
+  "description": "Your Atlus agent in Claude Code: it knows what you told it, hands parts to other agents and models, and acts on your email, calendar and documents only with your approval.",
+  "author": {
+    "name": "Atlus",
+    "url": "https://vonit.si"
+  },
+  "homepage": "https://vonit.si",
+  "repository": "https://github.com/devsolanki001/atlus-plugins",
+  "license": "MIT",
+  "keywords": ["agent", "memory", "delegation", "email", "approvals"]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "atlus",
+  "owner": {
+    "name": "Atlus",
+    "url": "https://vonit.si"
+  },
+  "description": "Atlus: your own agent, inside the AI you already use - it knows you, acts on your accounts with your approval, and hands work to the best agent or model.",
+  "plugins": [
+    {
+      "name": "atlus",
+      "source": "./plugins/atlus",
+      "description": "Your Atlus agent in Claude Code: recall what you told it, delegate parts to other agents and models, draft emails and act on your accounts with your approval.",
+      "category": "productivity"
+    }
+  ]
+}
