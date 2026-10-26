@@ -11,5 +11,5 @@ Hand this part of the work to another worker through Atlus: $ARGUMENTS
    the files or context it needs, and what to hand back.
 3. Call `delegate` with that `job` (and the `worker`).
 4. Tell the person which worker has it and the link Atlus returned, then keep
-   working. Check it with `get_mission` (`wait_seconds` 20); when it has ended,
-   read the result with `get_receipt` and use it.
+   working. Follow it with `job` (`wait_seconds` 20); once it has ended, `job`
+   returns the result - use it.

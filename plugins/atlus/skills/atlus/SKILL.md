@@ -35,8 +35,13 @@ server.
   (sandbox agents take minutes - its usual time is listed; tell the person).
   If the part needs the person's own email, calendar or files, set
   `needs_my_data`: Atlus then asks them to allow those reads first. Keep
-  working; check it with `get_mission` (`wait_seconds` 20), and read the result
-  with `get_receipt` when it has ended.
+  working; follow it with `job` (`wait_seconds` 20) - once it has ended, `job`
+  also returns the result.
+- **Cost.** `my_agent` gives the person's cost mode. In **cheapest** (the
+  default) do everything you can yourself; delegate without a worker goes to
+  their own agent on their computer at $0, or is refused - never paid work
+  Atlus started on its own. `budget_usd` 0 always means their own agent, on
+  their own plan.
 - **Their calendar or email.** To read them, use `start_mission` with what you
   need ("list my meetings this week"). Atlus asks the person to allow the read,
   then returns it.
