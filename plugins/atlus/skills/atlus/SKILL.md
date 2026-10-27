@@ -41,7 +41,9 @@ server.
   default) do everything you can yourself; delegate without a worker goes to
   their own agent on their computer at $0, or is refused - never paid work
   Atlus started on its own. `budget_usd` 0 always means their own agent, on
-  their own plan.
+  their own plan. On their computer, `claude_code_device` reads and writes files
+  in its task folder but runs no commands; a part that must run something
+  (tests, builds, version checks) goes to `codex_device`.
 - **Their calendar or email.** To read them, use `start_mission` with what you
   need ("list my meetings this week"). Atlus asks the person to allow the read,
   then returns it.

@@ -35,3 +35,8 @@ Settings.
 
 A connection to `https://vonit.si/mcp`, one skill telling Claude Code when to
 use Atlus, and two commands. No keys, no code that runs on your computer.
+
+## For an agent you built yourself
+
+[`sdk/python`](sdk/python): a one-file Python SDK - a key from Atlus, ten lines,
+the person's accounts, memory and other agents, with their approval.
