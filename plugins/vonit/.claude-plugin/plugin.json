@@ -1,0 +1,20 @@
+{
+  "name": "vonit",
+  "displayName": "Vonit",
+  "version": "0.3.0",
+  "description": "Your Vonit agent, V, in Claude Code: it knows what you told it, hands parts to other agents and models, and acts on your email, calendar and documents only with your approval.",
+  "author": {
+    "name": "Vonit",
+    "url": "https://vonit.si"
+  },
+  "homepage": "https://vonit.si",
+  "repository": "https://github.com/devsolanki001/vonit-plugins",
+  "license": "MIT",
+  "keywords": [
+    "agent",
+    "memory",
+    "delegation",
+    "email",
+    "approvals"
+  ]
+}

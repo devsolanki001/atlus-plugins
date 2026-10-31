@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "vonit": {
+      "type": "http",
+      "url": "https://vonit.si/mcp"
+    }
+  }
+}

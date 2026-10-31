@@ -1,15 +1,21 @@
 {
-  "name": "atlus",
+  "name": "vonit",
   "owner": {
-    "name": "Atlus",
+    "name": "Vonit",
     "url": "https://vonit.si"
   },
-  "description": "Atlus: your own agent, inside the AI you already use - it knows you, acts on your accounts with your approval, and hands work to the best agent or model.",
+  "description": "Vonit: your own agent, V, inside the AI you already use - it knows you, acts on your accounts with your approval, and hands work to the best agent or model.",
   "plugins": [
+    {
+      "name": "vonit",
+      "source": "./plugins/vonit",
+      "description": "Your Vonit agent in Claude Code: recall what you told it, delegate parts to other agents and models, draft emails and act on your accounts with your approval.",
+      "category": "productivity"
+    },
     {
       "name": "atlus",
       "source": "./plugins/atlus",
-      "description": "Your Atlus agent in Claude Code: recall what you told it, delegate parts to other agents and models, draft emails and act on your accounts with your approval.",
+      "description": "Atlus is now Vonit: install `vonit` instead. Kept so old installs work.",
       "category": "productivity"
     }
   ]
